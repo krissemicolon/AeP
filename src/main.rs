@@ -27,7 +27,7 @@ fn main() {
 
         // hashing process
         for _ in 1..chain_length {
-            password = format!("{:X}", sha2::Sha256::digest(&password));
+            password = format!("{:X}", Sha256::digest(&password));
         }
 
         println!("{}", password);
