@@ -2,10 +2,11 @@
 name = "AeP"
 description = "Password Generator that does"
 license = "GPL-3.0"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 [dependencies]
 clap = { version = "3.2.1", features = ["derive"] }
 rand = "0.8.5"
 sha2 = "0.10.2"
+rayon = "1.5.3"
