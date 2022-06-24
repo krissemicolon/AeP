@@ -1,3 +1,7 @@
+/*
+ * Copyright (C) 2022 Kris Huber
+ */
+
 use clap::Parser;
 use rayon::prelude::*;
 use rand::{distributions::Alphanumeric, Rng};
