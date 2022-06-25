@@ -1,6 +1,6 @@
 [package]
 name = "AeP"
-description = "Password Generator that does"
+description = "Password generator that generates passwords with the use of the SHA-256 hash function."
 license = "GPL-3.0"
 version = "0.1.2"
 edition = "2021"
