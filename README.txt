@@ -1,5 +1,6 @@
 AeP
-Password Generator that does
+Password generator that generates passwords with the use of the SHA-256 hash function.
+
 
 USAGE:
     AeP [OPTIONS]
